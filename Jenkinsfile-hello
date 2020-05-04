@@ -1,1 +1,15 @@
-
+pipeline
+{
+agent any
+ stages 
+   {
+     stage ('Print Hello word')
+      {
+     steps
+      {
+      sh 'echo Welcome ! This is jenkin pipeline'
+      }         
+     }
+   }
+} 
+ 
