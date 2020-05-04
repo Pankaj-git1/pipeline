@@ -1,13 +1,13 @@
 pipeline
 agent any
 {
- stages
+ stages('Print Hello word')
    {
      stage
       {
      steps
       {
-      sh echo'Welcome ! This is jenkin pipeline'
+      sh echo 'Welcome ! This is jenkin pipeline'
       }         
      }
    }
