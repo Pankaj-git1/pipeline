@@ -1,0 +1,13 @@
+pipeline
+agent any
+{
+ stages
+   {
+     {
+      stage
+      {
+      sh echo'Welcome ! This is jenkin pipeline'
+      }         
+     }
+   }
+}
